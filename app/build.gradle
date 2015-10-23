@@ -33,13 +33,13 @@ buildscript {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar', ':compileTestJava'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:appcompat-v7:23.1.0'
     repositories {
         maven {
             url 'C:/Users/Jeff/Downloads/Myo/myo-android-sdk-0.10.0/myo-android-sdk-0.10.0/myorepository'
         }
     }
     compile 'com.thalmic:myosdk:0.10.+@aar'
-    compile 'eu.darken.myolib:myolib:0.0.3'
+    compile 'eu.darken.myolib:myolib:0.0.4'
 
 }
